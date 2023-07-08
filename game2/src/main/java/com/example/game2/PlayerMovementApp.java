@@ -448,7 +448,7 @@ Script script_object = new Script();
                 if (kill_counter < 4) {
                     kakyoin_speak.setText("KAKYOIN: You need to kill more enemies so that I can get my energy back ");
                 } else {
-                    kill_counter=0;
+                
                     kakyoin_speak.setText("KAKYOIN:EMERALD SPLASH");
                     playSound(soundFilePath);
                     icon_kakyoin.setVisible(false);
